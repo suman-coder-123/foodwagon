@@ -13,8 +13,8 @@
     <main>
         <section >
       <header>
-            <nav>
-                <div class="navbar  navbar-expand-lg navbar-light bg-white d-flex justify-content-between align-items-center px-3 py-2">
+            <nav class="nav">
+                <div class="navbar  navbar-expand-lg navbar-light bg-white d-flex justify-content-evenly align-items-center px-3 py-2 ">
                     <div class=" Main logo m-0">
                         <img src="Logo.png" width="200px" height="36" alt="logo">
                     </div>
@@ -43,7 +43,7 @@
                         <h1 class="are">Are you starving?</h1>
                         <p class="p">Within a few clicks, find meals that are accessible near you</p>
                         <div class="address p-3 p-md-4 p-lg-4">
-                            <div class="mode mt-4 flex-wrap flex-md-nowrap">
+                            <div class="mode  flex-wrap flex-md-nowrap">
                                 <button class="delivery"><i class="fa-solid fa-motorcycle" style="color: #f17228;"></i> Delivery</button>
                                 <button class="pickup"> <i class="fa-solid fa-bag-shopping" style="color: grey;"></i> Pick up </button>
                             </div>
@@ -190,7 +190,7 @@
                      <button class="arrow-btn">&rarr;</button>
             </div>
         </section>
-        <section  >
+        <section>
             <h2 class="Featured-restuarant">Featured restuarant</h2>
         <div class="rest-container">
                 <div class="row">
@@ -274,8 +274,7 @@
                                 Open Tomorrow
                             </div>
                         </div>
-                    </div>
-                
+                    </div>            
                 </div>  
                 <div class="row">
                     <div class="mycards col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 md-4">
@@ -357,23 +356,24 @@
                                 Open Tomorrow
                             </div>
                         </div>
-                    </div>
-                
+                    </div>                
                 </div>  
-
         </div>
+              <div class="text-center">
+                 <button class="view-all-btn">View All ></button>
+              </div>
+
         </section>
         <section class="site5">
-            <div class="search-by-food">
+            <div class="search-by-food ">
                 <div class="row mb-4 food-head">
-                    <div class="col-12 col-md-6 col-sm-3">               
+                    <div class="d-flex justify-content-between align-items-center flex-wrap gap-3 mb-4">
                         <h4 class="searchfood">Search by Food </h4>
-                    </div>        
-                        <div class="col-12 col-md-6  text-md-end mt-3 mt-md-0">
-                        <p><span class="view-all"> View All ></span><span class="arrow">
-                            <img  class="left-aarow" src="Arrow Left.png" width="56" height="56"> <img  class="right-arrow" src="Arrow Right.png" width="56" height="56">
-                        </span></p> 
-                        </div>              
+                        <div class="d-flex align-items-center gap-2">
+                          <span class="view-all"> View All ></span>
+                          <span class="arrow"><img  class="left-aarow" src="Arrow Left.png" width="56" height="56"> <img  class="right-arrow" src="Arrow Right.png" width="56" height="56"></span>               
+                        </div> 
+                    </div>              
                 </div>
                 <div class="main-food">
                     <div class="container">
@@ -423,18 +423,18 @@
                 <div class="features">
                     <div class="row  featured-box g-3">
                         <div class=" col-12 col-sm-6 col-md-4 col-lg-4  mb-3 d-flex align-items-center">
-                            <img class="icon-img me-2" src="featured icon/Icon.png" alt="discount">
+                            <img class="icon-img me-2 img-fluid" src="featured icon/Icon.png" alt="discount">
                             <strong class="icon-text"> Daily Discounts</strong>
                             <div class=" d-none d-md-block border-line">|</div>
                         </div>
                     
                         <div class="col-12 col-sm-6 col-md-4 col-lg-4  mb-3 d-flex align-items-center">
-                            <img class="icon-img me-2" src="featured icon/Icon (1).png" alt="discount">
+                            <img class="icon-img me-2 img-fluid" src="featured icon/Icon (1).png" alt="discount">
                             <strong class="icon-text">Live Tracking</strong>
                             <div class=" d-none d-md-block border-line">|</div>
                         </div>
                         <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-3 d-flex align-items-center">
-                            <img class="icon-img me-2" src="featured icon/Icon (2).png" alt="discount">
+                            <img class="icon-img me-2 img-fluid" src="featured icon/Icon (2).png" alt="discount">
                             <strong class="icon-text"> Quick Delivery</strong>
                         </div>
                     </div>  
@@ -463,14 +463,14 @@
                             </div>
                         </div>
                         <div class="col-md-8 order-md-1 order-2 p-0">
-                            <img  class=order-img src="order/Right.png" alt="Sandwich">
+                            <img  class="order-img img-fluid" src="order/Right.png" alt="Sandwich">
                         </div>
                     </div>
                     <div class="row align-items-center mb-4 first-row">
-                        <div class="col-md-6">
-                            <img  class=order-md-img src="order/Image (1).png" alt="Chicken">
+                        <div class="col-md-8 order-md-1 order-2 p-0">
+                            <img  class="order-md-img img-fluid" src="order/Image (1).png" alt="Chicken">
                         </div>
-                        <div class="col-md-6 ">
+                        <div class="col-md-4 order-md-1 order-2  p-0 ">
                             <div class="order-middle">
                             <h4><strong>Celebrate Parties<br>with <span class="text-warning">Fried Chicken </span></strong></h4>
                             <p class="order-text">Get the best fried chicken smeared with a lip<br> smacking lemon chili flavor. Check out<br> best deals for fried chicken.</p>
@@ -487,27 +487,27 @@
                             </div>
                         </div>
                         <div class="col-md-8 order-md-1 order-2 p-0">
-                            <img  class=order-img src="order/Image (2).png" alt="Pizza">
+                            <img  class="order-img img-fluid" src="order/Image (2).png" alt="Pizza">
                         </div>
                     </div>
                 </div>
             </div>
         </section>
         <section class="site8">
-            <div class="container-fluid bg-text d-flex align-items-center justify-content-center text-center">
+            <div class="container-fluid bg-text d-flex align-items-center justify-content-center text-center py-5">
                 <div class="row">
-                <div class="col-12 col-md-10 col-lg-10 mx-auto">
-                <h2 class="bg-h1">Are You Ready to Order With<br> the Best deals?</h2>
+                <div class="col-12 ">
+                <h2 class="bg-h1 ready-text mb-3">Are You Ready to Order With<br> the Best deals?</h2>
                 <button class="bg-button">Proceed to Order > </button>
                 </div>
                 </div>
             </div>
         </section>
-        <footer>
-            <div class="footer">
-                <div class="container-city">
+    <footer>
+        <div class="footer">
+            <div class="container-city">
                 <div class="row">
-                    <div class="col-lg-12 col-md-6 mb-4">
+                    <div class="col-lg-12 col-md-12 mb-4">
                         <h5 class="footer-h5">Our top cities </h5>
                         <ul class="footer-list ">
                            <li>San Francisco</li>
@@ -539,62 +539,60 @@
                     </div>
                 </div>
             </div>
-            <div class="container-footer-info">   
-                <div class="row">
-                    <div class="col-md-3 col-sm-6 mb-4 g-3 footer-info">
-                        <h5 class="company-h5">Company</h5>
-                        <ul class="footer-cmpy">
-                            <li>about us </li>
+            <div class="footer-container">
+                <div class="footer-columns">
+                    <div class="footer-column">
+                        <h4>Company</h4>
+                        <ul>
+                            <li>About us</li>
                             <li>Team</li>
-                            <li>career</li>
+                            <li>Careers</li>
                             <li>Blog</li>
                         </ul>
                     </div>
-                    <div class="col-md-3 col-sm-6 mb-4 g-3 footer-info">
-                        <h5 class="contact-h5">Contact </h5>
-                        <ul class="footer-cont">
+
+                    <div class="footer-column">
+                        <h4>Contact</h4>
+                        <ul>
                             <li>Help & Support</li>
-                            <li>Partner with us </li>
-                            <li>Ride with us </li>
+                            <li>Partner with us</li>
+                            <li>Ride with us</li>
                         </ul>
                     </div>
-                    <div class="col-md-3 col-sm-6 mb-4 g-3 footer-info">
-                        <h5 class="legal-h5">Legal</h5>
-                        <ul class="footer-legal">
-                            <li>Terms & Condition </li>
+
+                    <div class="footer-column">
+                        <h4>Legal</h4>
+                        <ul>
+                            <li>Terms & Conditions</li>
                             <li>Refund & Cancellation</li>
-                            <li>Privacy Policy </li>
+                            <li>Privacy Policy</li>
                             <li>Cookie Policy</li>
                         </ul>
                     </div>
-                 <div class="col-md-3 col-sm-6 mb-4 g-3 footer-rg-info">
-                 <div class="footer-cont-info">
-                    <h5 class="follow-h5">FOLLOW US</h5>
-                    <P><i class="fa-brands fa-instagram" style="color: #f5f5f5;"></i> <i class="fa-brands fa-facebook" style="color: #f5f5f5;"></i> <i class="fa-brands fa-twitter" style="color: #f5f5f5;"></i></p>
-                        <p class="follow-text">Receive exclusive offers in your mailbox </p>
-                        <div class="email-input">
-                           <i class="fa-solid fa-envelope email-img" style="color: #adadad;"></i>                            
-                           <input class="email-text" type="email" placeholder="Enter Your email">
-                           <BUTTON class="Subscribe">Subscribe </BUTTON>
-                        </div>
 
-                 </div>
-                 </div>
+                    <div class="footer-column subscribe-column">
+                        <h4 class="follow">Follow Us </h4>
+                        <div class="social-icons">
+                         <i class="fa-brands fa-instagram" style="color: #f5f5f5;"></i>
+                         <i class="fa-brands fa-facebook" style="color: #f5f5f5;"></i>
+                         <i class="fa-brands fa-twitter" style="color: #f5f5f5;"></i>
+                    </div>
+                        <p>Receive exclusive offers in your mailbox</p>
+                        <form class="subscribe-form">
+                            <input type="email" placeholder="Enter your email" />
+                            <button type="submit">Subscribe</button>
+                        </form>
+                    </div>
                 </div>
+
+                <div class="footer-bottom">
+                    <p>All rights reserved © Your Company, 2021</p>
+                    <p>Made with <i class="fa-solid fa-heart" style="color: #FFD43B;"></i> by ThemeWagon</p>
                 </div>
             </div>
-            <div class="footer-foot">
-                <div class="row foot-container  ">
-                    <div class="col-lg-6 col-md-12 mb-4">
-                        <p class="foot-left">All rights Reserved <span class="copyright"><i class="fa-solid fa-copyright" style="color: white;"></i>Your Company, 2021</span></p>
-                    </div>
-                    <div class="col-lg-6 col-md-12 mb-4  foot-l-box">
-                        <p class="foot-left">Made with<i class="fa-solid fa-heart" style="color: #FFD43B;"></i>  by <strong>Themewagon</strong></p>
-                    </div>
-                </div>
-            </div>
-        </footer>
-    </main>    
+        </div>
+    </footer>
+</main>    
 
 
 
